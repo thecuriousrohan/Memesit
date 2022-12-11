@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592577452833",
+    "project_id": "thememesit22",
+    "storage_bucket": "thememesit22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592577452833:android:c5c3ca0e0c18c345e57c60",
+        "android_client_info": {
+          "package_name": "com.example.newemesit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592577452833-edplt4dh8s37m33i2eaef7dnrskboicm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5SJXmRuiM5jqkVef8CVQoMa8SvKsda7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592577452833-edplt4dh8s37m33i2eaef7dnrskboicm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
