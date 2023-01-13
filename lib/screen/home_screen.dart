@@ -1,5 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 //import 'package:newemesit/login.dart';
 //import 'package:newemesit/register.dart';
 
@@ -7,8 +7,10 @@ import 'package:flutter/material.dart';
 
 
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}): super(key: key);
+
+
+class HomeScreen extends StatefulWidget {
+  const  HomeScreen({Key? key}): super(key: key);
 
 
 
@@ -16,11 +18,11 @@ class MyHomePage extends StatefulWidget {
   // final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
 
-class _MyHomePageState extends State<MyHomePage> {
+class _HomeScreenState extends State<HomeScreen> {
 
 
 

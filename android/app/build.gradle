@@ -48,11 +48,11 @@ android {
         applicationId "com.example.newemesit"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        minSdkVersion 21
+        targetSdkVersion 31
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
-        MultiDexEnable true
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -71,5 +71,10 @@ flutter {
 dependencies {
     implementation platform('com.google.firebase:firebase-bom:31.1.1')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    //implementation 'com.google.firebase:firebase-analytics'
+   // implementation 'com.google.firebase:firebase-analytics'
+
+
+        // Also add the dependency for the Google Play services library and specify its version
+        implementation 'com.google.android.gms:play-services-auth:20.4.0'
+
 }
